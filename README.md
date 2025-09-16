@@ -11,9 +11,6 @@ pip install -r requirements.txt
 ```
 
 # Использование
-* Замените тестовые данные в папке *CV-to-GIF/frames* на желаемые.
-* Запустите скрипт:
 ```
-python frames_to_gif.py
+python frames_to_gif.py -i path/to/images/directory -o outputfile.gif
 ```
-* Получившийся GIF-файл *animation.gif* появится в директории.
